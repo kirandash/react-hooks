@@ -40,4 +40,8 @@
 ### 29. Save post in localStorage with useEffect - incomplete
 - save message if user accidentally closes the dialog or navigates away from the page.
 
-### 30. Fetch data with useEffect
+### 31. Fetch data with useEffect
+
+### 32. Intro to clean up functions
+- setState in async calls might take time to execute.  so in the mean time if  we navigate to a different component, react will through an error saying "Can't perform a React state update on an unmounted component"
+- To fix this: we need to cleanup our async tasks in cleanup function

@@ -1,9 +1,11 @@
 import './App.css';
+
 // import HowReactWorks from './components/16HowReactWorks';
 // import CustomUseState from './components/19CustomUseState';
 // import UseRef from './components/20UseRef';
 // import SavePost from './components/29savePost';
-import FetchData from './components/31FetchData';
+// import FetchData from './components/31FetchData';
+import CleanUp from './components/32CleanUp';
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       {/* <CustomUseState /> */}
       {/* <UseRef /> */}
       {/* <SavePost /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <CleanUp />
     </div>
   );
 }
