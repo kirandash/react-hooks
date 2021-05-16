@@ -53,3 +53,6 @@
 ### 34. async await with useEffect - self invoking fn
 - Effect callbacks are synchronous to prevent race conditions. so can not use async with callbacks
 - To solve this: we can use a **self invoking async fn** inside useEffect
+
+### 35. Subscription Style async
+- Subscription fn has a calback and a returned fn. The callback fn returns data from async api call. While the returned fn is used to unsubscribe from the subscription
