@@ -37,5 +37,7 @@
 - Just lke React components let us componse multiple elements together. Ex: components inside components
 - Similarly we can also compose hooks into hooks.
 
-### 29. Save post in localStorage with useEffect
+### 29. Save post in localStorage with useEffect - incomplete
 - save message if user accidentally closes the dialog or navigates away from the page.
+
+### 30. Fetch data with useEffect
