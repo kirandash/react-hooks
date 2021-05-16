@@ -49,3 +49,7 @@
 ### 33. How to use clean up fn
 - how to cancel async calls viz fetch call
 - use a local boolean variable in useEffect 
+
+### 34. async await with useEffect - self invoking fn
+- Effect callbacks are synchronous to prevent race conditions. so can not use async with callbacks
+- To solve this: we can use a **self invoking async fn** inside useEffect

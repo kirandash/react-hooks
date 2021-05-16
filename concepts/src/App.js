@@ -6,7 +6,8 @@ import './App.css';
 // import SavePost from './components/29savePost';
 // import FetchData from './components/31FetchData';
 // import CleanUp from './components/32CleanUp';
-import CleanUp from './components/33UseCleanUp';
+// import CleanUp from './components/33UseCleanUp';
+import AsyncAwait from './components/34AsyncAwait';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <UseRef /> */}
       {/* <SavePost /> */}
       {/* <FetchData /> */}
-      <CleanUp />
+      {/* <CleanUp /> */}
+      <AsyncAwait />
     </div>
   );
 }
