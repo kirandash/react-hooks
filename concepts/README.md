@@ -56,3 +56,9 @@
 
 ### 35. Subscription Style async
 - Subscription fn has a calback and a returned fn. The callback fn returns data from async api call. While the returned fn is used to unsubscribe from the subscription
+
+### 36. Mimicking useEffect with render props and class component
+- need to create a class component
+- use lifecycle hooks: comonentDidMount and componentDidUnmount
+- and for state use this.state
+- render method should send posts to children

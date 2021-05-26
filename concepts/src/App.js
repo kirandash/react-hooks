@@ -7,7 +7,8 @@ import './App.css';
 // import FetchData from './components/31FetchData';
 // import CleanUp from './components/32CleanUp';
 // import CleanUp from './components/33UseCleanUp';
-import AsyncAwait from './components/34AsyncAwait';
+// import AsyncAwait from './components/34AsyncAwait';
+import UseEffectRenderProps from './components/36UseEffectRenderProps';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <SavePost /> */}
       {/* <FetchData /> */}
       {/* <CleanUp /> */}
-      <AsyncAwait />
+      {/* <AsyncAwait /> */}
+      <UseEffectRenderProps />
     </div>
   );
 }
