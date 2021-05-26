@@ -13,12 +13,23 @@ function Tabs2({ children }) {
   );
 }
 
+// context to pass index to each child
+const TabListContext = createContext();
+
 function TabList({ children }) {
-  return <div data-reach-tab-list>{children}</div>;
+  return (
+    <div data-reach-tab-list>
+      {children.map((child, index) => (
+        <TabListContext.Provider value={{ index }} key={index}>
+          {child}
+        </TabListContext.Provider>
+      ))}
+    </div>
+  );
 }
 
 function Tab({ children, disabled }) {
-  const index = 0; // TODO
+  const { index } = useContext(TabListContext);
   const { activeIndex, setActiveIndex } = useContext(TabsContext);
   const isActive = index === activeIndex;
   return (
@@ -33,7 +44,7 @@ function Tab({ children, disabled }) {
 }
 
 function TabPanels({ children }) {
-  const activeIndex = useContext(TabsContext);
+  const { activeIndex } = useContext(TabsContext);
   return <div data-reach-tab-panels>{children[activeIndex]}</div>;
 }
 
@@ -49,6 +60,7 @@ export default function TabsComponent() {
         <TabList>
           <Tab>Login</Tab>
           <Tab disabled>Signup</Tab>
+          <Tab>Logout</Tab>
         </TabList>
         <TabPanels>
           <TabPanel>
@@ -56,6 +68,9 @@ export default function TabsComponent() {
           </TabPanel>
           <TabPanel>
             <div>Signup Form data</div>
+          </TabPanel>
+          <TabPanel>
+            <div>Log out data</div>
           </TabPanel>
         </TabPanels>
       </Tabs2>

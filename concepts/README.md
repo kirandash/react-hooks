@@ -103,3 +103,7 @@
 - use `useContext, createContext, children`
 - createContext
 - use context.Provider to send value to all children
+    - note that value is an object
+
+### 45. Adding index to context
+- Craete another context for tab list component
