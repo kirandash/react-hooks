@@ -96,3 +96,10 @@
     - easier to control
     - don't have to pass props to parent
     - reusable
+
+### 44. Share state with Context
+- In compound components, we can share state with context
+    - The implicit state which a child component might use from parent can be shared with context
+- use `useContext, createContext, children`
+- createContext
+- use context.Provider to send value to all children
