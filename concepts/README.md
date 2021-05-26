@@ -77,3 +77,5 @@
         - setup new sub
 - Can compose multiple hooks together ex: user and posts hook in one
 
+### 38. Data Loading - hook for Authentication
+- reusable useAuth code that returns two auth data
