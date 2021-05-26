@@ -9,7 +9,8 @@ import './App.css';
 // import CleanUp from './components/33UseCleanUp';
 // import AsyncAwait from './components/34AsyncAwait';
 // import UseEffectRenderProps from './components/36UseEffectRenderProps';
-import TabsComponent from './components/39Tabs';
+// import TabsComponent from './components/39Tabs';
+import TabsComponent from './components/40TabsTooManyProps';
 
 function App() {
   return (

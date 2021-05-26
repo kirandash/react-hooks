@@ -84,3 +84,9 @@
 - How to reposition tabs hea and content 
 - Note: we can use array to render JSX
       - `{tabsPosition === 'bottom' ? [panels,tabs] : [tabs, panels]}`
+
+### 40. Too many props - Add disabled property
+- Let's add disabled prop for tabs to make sure which tabs are to be disabled
+    - `disabled={[1]}`: item at 1 will be disabled
+- As we keep adding more props we will have to pass it to Tabs component
+    - To make it cleaner we can break the component into smaller components - next topic
