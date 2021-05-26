@@ -62,3 +62,18 @@
 - use lifecycle hooks: comonentDidMount and componentDidUnmount
 - and for state use this.state
 - render method should send posts to children
+- useEffect has far less lines of codes
+    -  `const [posts, setPosts] = useState(null);`
+
+### 37. Composing hooks
+- along with useEffect we can return the data so that the hook can be reused
+- Compose Hooks together - useState and useEffect to create reusable piece of code
+- Performs the following tasks:
+    - init state
+    - setup subscription
+    - cleanup subscription
+    - when uid changes
+        - cleanup sub
+        - setup new sub
+- Can compose multiple hooks together ex: user and posts hook in one
+
