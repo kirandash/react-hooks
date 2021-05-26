@@ -90,3 +90,9 @@
     - `disabled={[1]}`: item at 1 will be disabled
 - As we keep adding more props we will have to pass it to Tabs component
     - To make it cleaner we can break the component into smaller components - next topic
+
+### 41. Replacing props with compound components
+- With compound components: we can break the component into smaller components.
+    - easier to control
+    - don't have to pass props to parent
+    - reusable
