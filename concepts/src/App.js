@@ -8,7 +8,8 @@ import './App.css';
 // import CleanUp from './components/32CleanUp';
 // import CleanUp from './components/33UseCleanUp';
 // import AsyncAwait from './components/34AsyncAwait';
-import UseEffectRenderProps from './components/36UseEffectRenderProps';
+// import UseEffectRenderProps from './components/36UseEffectRenderProps';
+import TabsComponent from './components/39Tabs';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <FetchData /> */}
       {/* <CleanUp /> */}
       {/* <AsyncAwait /> */}
-      <UseEffectRenderProps />
+      {/* <UseEffectRenderProps /> */}
+      <TabsComponent />
     </div>
   );
 }

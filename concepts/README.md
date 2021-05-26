@@ -79,3 +79,8 @@
 
 ### 38. Data Loading - hook for Authentication
 - reusable useAuth code that returns two auth data
+
+### 39. Customize Component render positions - Tabs
+- How to reposition tabs hea and content 
+- Note: we can use array to render JSX
+      - `{tabsPosition === 'bottom' ? [panels,tabs] : [tabs, panels]}`
