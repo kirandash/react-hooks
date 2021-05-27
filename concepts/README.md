@@ -107,3 +107,8 @@
 
 ### 45. Adding index to context
 - Craete another context for tab list component
+
+### 46. Backwards compatibility - Tab
+- What if we want to change our reusable code ex: Tabs and Tabs2 here.
+- If we upgrade our API, from Tabs to Tabs2, the code should still work
+- So if user have already used a particular way of calling the API, we should not change the way component is called. But only improve the implementation.

@@ -11,7 +11,8 @@ import './App.css';
 // import UseEffectRenderProps from './components/36UseEffectRenderProps';
 // import TabsComponent from './components/39Tabs';
 // import TabsComponent from './components/40TabsTooManyProps';
-import TabsComponent from './components/41TabsCompoundComponents';
+// import TabsComponent from './components/41TabsCompoundComponents';
+import TabsComponent from './components/46TabsBackwardCompatible';
 
 function App() {
   return (
