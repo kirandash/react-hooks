@@ -112,3 +112,9 @@
 - What if we want to change our reusable code ex: Tabs and Tabs2 here.
 - If we upgrade our API, from Tabs to Tabs2, the code should still work
 - So if user have already used a particular way of calling the API, we should not change the way component is called. But only improve the implementation.
+
+### 47. Children Module from React for converting children
+- Till now we were treating as if children is an array. But that's not always the case. So we must handle it properly in our code.
+- `{Children.toArray(children)[activeIndex]}`
+    - Make sure to convert string to array. if string is passed by error
+- `Children.map`
