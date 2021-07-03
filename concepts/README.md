@@ -125,3 +125,23 @@
 - While building compound component: pass the commonly shared data in context. if some data is needed only for a subcomponent: then we can just pass it as props
 - Now: we can easily swap month, day, year in datepicker easily
 - We can add additional content between them
+
+### 49. Why we need reducers
+- useReducer provides a better and structured way of managing state
+- helps in grouping multiple state handling Ex: setLoding, setError etc which are done in a group  whenever there is an API call
+- also with reducers we can make our code more meaningful. Instead of saying setLoading, setError we can say something meaningful
+
+### 52 What is a reducer
+- myArray.reduce(fnToRun, InitValue)
+- the same concept is used by redux to manage state
+
+### 53. Using useReducer
+- Note: with useReducer state is usually an object unlie useState where state can be boolean or string etc 
+- `const [state, dispatch] = useReducer(
+        reducer,
+        initialState
+    );`
+- Advantages:
+  - all state in same object
+  - easy to understand code
+  - all logic for changing state is consolidated in one place

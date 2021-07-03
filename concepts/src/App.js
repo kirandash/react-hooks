@@ -14,7 +14,8 @@ import './App.css';
 // import TabsComponent from './components/41TabsCompoundComponents';
 // import TabsComponent from './components/46TabsBackwardCompatible';
 // import TabsComponent from './components/47TabsChildrenModule';
-import CompoundDatePicker from './components/48CompoundDatePicker';
+// import CompoundDatePicker from './components/48CompoundDatePicker';
+import ReducerForm from './components/53ReducerForm';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <AsyncAwait /> */}
       {/* <UseEffectRenderProps /> */}
       {/* <TabsComponent /> */}
-      <CompoundDatePicker />
+      {/* <CompoundDatePicker /> */}
+      <ReducerForm />
     </div>
   );
 }
