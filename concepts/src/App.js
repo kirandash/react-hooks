@@ -13,7 +13,8 @@ import './App.css';
 // import TabsComponent from './components/40TabsTooManyProps';
 // import TabsComponent from './components/41TabsCompoundComponents';
 // import TabsComponent from './components/46TabsBackwardCompatible';
-import TabsComponent from './components/47TabsChildrenModule';
+// import TabsComponent from './components/47TabsChildrenModule';
+import CompoundDatePicker from './components/48CompoundDatePicker';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <CleanUp /> */}
       {/* <AsyncAwait /> */}
       {/* <UseEffectRenderProps /> */}
-      <TabsComponent />
+      {/* <TabsComponent /> */}
+      <CompoundDatePicker />
     </div>
   );
 }

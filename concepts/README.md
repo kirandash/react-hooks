@@ -118,3 +118,10 @@
 - `{Children.toArray(children)[activeIndex]}`
     - Make sure to convert string to array. if string is passed by error
 - `Children.map`
+
+### 48. Compound component - Datepicker
+- DatePicker with customizable  order of date, locale, showYear, showDate etc. Eventually the props list will become longer
+- It's better if we can cusotmize the component to make it compound component. So we can control it in a better way.
+- While building compound component: pass the commonly shared data in context. if some data is needed only for a subcomponent: then we can just pass it as props
+- Now: we can easily swap month, day, year in datepicker easily
+- We can add additional content between them
