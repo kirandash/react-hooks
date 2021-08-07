@@ -20,7 +20,9 @@ function ReducerForm() {
                 return { ...state, startDate: action.date }
             }
             default:
-                return state
+                // return state
+                // to make sure developer is not dispatching an unallowed action
+                throw new Error(`Unrecognized action: ${action.type}`)
         }
     }
 

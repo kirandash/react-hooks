@@ -145,3 +145,21 @@
   - all state in same object
   - easy to understand code
   - all logic for changing state is consolidated in one place
+- BTS it uses useState
+
+### 54. Building Global state
+- The reducer we created before is local to the component
+- useReducer and useContext are both local
+- some state variables should be global such as: auth, theme etc. We should not be setting onChange event listeners etc on component level
+- info like loading and error should be component level
+- we can make use of useReducer and useContext together to create a psuedo global state
+
+### 67. Animation and Interpolation Types
+- Three types of element animations:
+    - Interpolating valeus on an element: width, opacity, position etc
+    - Enter/exit an element
+    - Transitioning b/w elements
+- Two ways to interpolate:
+    - Time-based on a bezier curve (like CSS transitions)
+    - Phyiscs based with a spring
+- React spring: https://react-spring.io/
